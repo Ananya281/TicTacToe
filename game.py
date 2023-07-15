@@ -32,7 +32,6 @@ def check(X,O):
         if result(O[win[0]],O[win[1]],O[win[2]])==3:
             print("O wins the match")
             return 0
-    print("Match Tie and over")
     return -1
 
 
@@ -60,4 +59,5 @@ for turn in range(1,10):
     if(cwin!=-1):
         print("Match over")
         break
+ print("Match Tie and over")
         
